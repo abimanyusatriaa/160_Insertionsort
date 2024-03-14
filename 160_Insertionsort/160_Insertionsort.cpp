@@ -73,6 +73,8 @@ void display() {                                          //procedure display
 
 int main()
 {
-    std::cout << "Hello World!\n";
+    input();                                              //memanggil input
+    insertionsort();                                      //memnaggil insertionsort
+    display();                                            //memanggil display
 }
 
